@@ -28,7 +28,7 @@ export const AuthProvider = ({ children }) => {
 
   const fetchUserData = useCallback(async (token) => {
     try {
-      const response = await axios.get('http://localhost:5000/api/auth/me', {
+      const response = await axios.get('https://park-ease-1-f1vh.onrender.com/api/auth/me', {
         headers: {
           'x-auth-token': token
         },
@@ -64,7 +64,7 @@ export const AuthProvider = ({ children }) => {
   const register = async (userData, role) => {
     try {
       const endpoint = role === 'user' ? '/register/user' : '/register/owner';
-      const response = await axios.post(`http://localhost:5000/api/auth${endpoint}`, userData);
+      const response = await axios.post(`https://park-ease-1-f1vh.onrender.com/api/auth${endpoint}`, userData);
       
       setError(null);
       return { success: true, message: response.data.message };
@@ -79,7 +79,7 @@ export const AuthProvider = ({ children }) => {
 
   const login = async (email, password, role) => {
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/login', {
+      const response = await axios.post('https://park-ease-1-f1vh.onrender.com/api/auth/login', {
         email,
         password,
         role
