@@ -231,7 +231,7 @@ For support, please open an issue in the GitHub repository or contact the develo
 
 ## Credits
 
-Created by Nirjhar Mishra
+Created by Sagar Paul
 
-- GitHub: [github.com/nirjharmishra](https://github.com/nirjharmishra)
-- LinkedIn: [linkedin.com/in/nirjharmishra](https://linkedin.com/in/nirjharmishra) 
+- GitHub: [github.com/Sagarpaul9475](https://github.com/Sagarpaul9475)
+- LinkedIn: [linkedin.com/in/sagar-paul-2b620928b](https://linkedin.com/in/sagar-paul-2b620928b) 
